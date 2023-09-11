@@ -1,0 +1,33 @@
+/* index.css */
+.sider {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.sider .ant-drawer-content-wrapper {
+  height: 100%;
+  box-shadow: none;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Wrap the cards to the next line when they exceed the container width */
+  gap: 20px;
+}
+
+.card {
+  flex: 0 0 calc(33.333% - 20px);
+  /* Set each card to occupy one-third of the container width minus the gap */
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #fff;
+}
